@@ -1,0 +1,111 @@
+UAB Sepsis Possible Mechanics
+
+	Time
+		A. Time passes at an increased rate
+			Example: it takes one minute in real life to get from 0700 to 0800 in game
+		B. Time passes to next vitals check only when player is ready
+			Example: player can take their time, then skip from 0700 to 1400 when ready
+		C. All of the above (time passes, but can be skipped ahead)
+	
+	Dialogue
+		A. Adding points for...
+			i.   Greeting patient
+			ii.  Asking about comfort
+			iii. Telling the patient when they'll be back
+		B. Talking to patient to gather more information
+			i.   Unlocking ability to do closer examination, rather than just being able to do it
+			ii.  Asking about their situation before they entered the hospital, to identify infection risks
+		C. Asking patient about their comfort level
+			i.   Adding points for delivering water, pillows, etc.
+			ii.  Docking points if they don't ask, or do ask but don't deliver
+		D. Dialogue with virtual nurses
+			Example: asking a "head nurse" for hints
+		E. Dialogue with virtual doctors
+			Example: advising an endoscopy directly to a character, rather than in a chart
+		F. Dialogue with virtual MET crew
+			Example: cooperating with a virtual MET crew to perform the Sepsis Power Plan, rather than doing it alone
+	
+	Medication
+		A. Administering medication
+			i.   Clicking "administer meds" without needing to know what they are
+			ii.  Giving them the appropriate meds from a list the player always has
+			iii. Retrieving meds from a medication closet, and then administering them
+			iv.  A possibility of administering the wrong medication and losing points
+			v.   Needing to give medications that the patient uses at home
+		B. Administering IV meds
+			i.   Activating the IV bag and adding anything appropriate
+			ii.  Or medication is presumed to be used in the appropriate manner, and is just "given"
+		C. Medication problems
+			i.   Certain medication interferes with accurate vitals readings
+			ii.  Certain medication causes patients to develop addictions
+			iii. Certain medications can, in some cases, cause patients to go into a freefall
+			
+	Codes
+		A. Code Sepsis
+			i.   Requiring the player to know every detail of the Sepsis Power Plan without reference
+			ii.  Giving the player reference to the Sepsis Power Plan, but under a time limit
+			iii. Giving the player reference to the Sepsis Power Plan and having no time limit
+			iv.  Allowing the player to recieve hints from the MET team'
+			v.   Depending on vitals, causes patient to be rushed to ICU
+		B. Code MET
+			i.   Less points than a Code Sepsis but MET informs player of infections
+			ii.  Same result as a Code Sepsis, but with less time to perform the Sepsis Power Plan
+			iii. MET talks player through Sepsis Power Plan
+			iv.  Depending on vitals, causes patient to be rushed to ICU
+		C. Code Blue
+			i.   Isn't in simulation
+			ii.  Is in simulation, but is never needed (calling it shows the patient is not asphyxiating)
+			iii. Is in simulaion and is occasionally the right decision to make
+		D. Other Codes
+			i.   We're not sure what these might be, but may be necessary to be in the sim to throw the player off
+	
+	Comfort
+		A. Water/Pillows/Blankets
+			i.   Player can give these things to the patient directly
+			ii.  Player must retrieve these things from somewhere to give it to the patient (similar to Medication A. iii.)
+			iii. Patient recieving water causes a cup to stay behind
+			iv.  Piles of water cups can accumulate, becoming a hygene risk
+		B. Restroom Usage
+			i.   Player never needs to concern themselves with patient bathroom usage
+			ii.  Player must assist some patients to use the bathroom
+			iii. Patients who don't receive restroom assistance may have "accidents", requiring some action
+			iv.  Patients who don't recieve restroom assistance may hold their bladder until they cause an infection
+			
+	Sepsis Power Plan
+		A. In order to be effective, this must be followed to the letter...
+			i.   over the course of many in-game hours
+			ii.  but can be performed all at once, without requiring the player to time anything out
+		B. Protocol and qSepsis scoring
+			i.   Provided for the player
+			ii.  Guidelines can be referenced, but aren't filled in automatically
+			iii. Are not available in any way
+			
+	Charts
+		A. Fill in automatically
+		B. Require the player to "chart", but this just passes time and fills in automatically
+		C. Require the player to actually chart at some point in the simulation
+		
+	Infection Risks
+		A. Don't appear in the simulation
+		B. Occasionally show up randomly, and action must be taken or the patient may become infected
+		C. Show up only as a result of the players decisions or lack of attention
+		
+	Observation Mode
+		A. No observation mode
+		B. Simulation team can watch through the eyes of the player
+		C. Simulation team can watch through the eyes of the patient(s)
+		D. Simulation team can watch through "cameras" setup throughout the virtual floor
+		E. Simulation team can speak directly at the player (as if through the PA system)
+		
+	Inventory
+		A. The player can give any medication or comfort item at any time, without limit
+		B. The player has an limited inventory they can fill with items from around the hospital
+		C. The player must handle each object individually and place them on their cart to move them from room to room
+		
+	Chaos
+		A. Peripheral chaos, but not actually a hindrance
+		B. Equipment, such as the medication locker, may fail occasionally
+		C. Patients may wander off
+		D. Garbage and infection risks may appear around the hospital, with player action to remove them giving points
+		E. Nurses and other staff may be moving around the main floor
+		F. Nurses and other staff may need the player to perform immediate tasks, throwing off their rounds
