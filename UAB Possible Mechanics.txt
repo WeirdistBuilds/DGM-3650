@@ -2,10 +2,10 @@ UAB Sepsis Possible Mechanics
 
 	Time
 		A. Time passes at an increased rate
-			Example: it takes one minute in real life to get from 0700 to 0800 in game
+			Example: it takes two minutes in real life to get from 0700 to 0800 in the simulation
 		B. Time passes to next vitals check only when player is ready
 			Example: player can take their time, then skip from 0700 to 1400 when ready
-		C. All of the above (time passes, but can be skipped ahead)
+		C. All of the above (time passes, but the player can skip ahead if they decide they're done for the time being)
 	
 	Dialogue
 		A. Adding points for...
@@ -13,7 +13,7 @@ UAB Sepsis Possible Mechanics
 			ii.  Asking about comfort
 			iii. Telling the patient when they'll be back
 		B. Talking to patient to gather more information
-			i.   Unlocking ability to do closer examination, rather than just being able to do it
+			i.   Unlocking through dialogue the ability to do closer examination, rather than just being able to do it
 			ii.  Asking about their situation before they entered the hospital, to identify infection risks
 		C. Asking patient about their comfort level
 			i.   Adding points for delivering water, pillows, etc.
@@ -24,6 +24,8 @@ UAB Sepsis Possible Mechanics
 			Example: advising an endoscopy directly to a character, rather than in a chart
 		F. Dialogue with virtual MET crew
 			Example: cooperating with a virtual MET crew to perform the Sepsis Power Plan, rather than doing it alone
+		G. Dialogue with family
+			Example: asking a visiting family member about medical history, if the patient says they don't know
 	
 	Medication
 		A. Administering medication
@@ -34,18 +36,19 @@ UAB Sepsis Possible Mechanics
 			v.   Needing to give medications that the patient uses at home
 		B. Administering IV meds
 			i.   Activating the IV bag and adding anything appropriate
-			ii.  Or medication is presumed to be used in the appropriate manner, and is just "given"
+			ii.  Medication is presumed to be used in the appropriate manner, and is automatically applied to the IV or patient
 		C. Medication problems
 			i.   Certain medication interferes with accurate vitals readings
 			ii.  Certain medication causes patients to develop addictions
 			iii. Certain medications can, in some cases, cause patients to go into a freefall
+			iv.  Patients may be allergic to medication
 			
 	Codes
 		A. Code Sepsis
 			i.   Requiring the player to know every detail of the Sepsis Power Plan without reference
 			ii.  Giving the player reference to the Sepsis Power Plan, but under a time limit
 			iii. Giving the player reference to the Sepsis Power Plan and having no time limit
-			iv.  Allowing the player to recieve hints from the MET team'
+			iv.  Allowing the player to recieve hints from the MET team
 			v.   Depending on vitals, causes patient to be rushed to ICU
 		B. Code MET
 			i.   Less points than a Code Sepsis but MET informs player of infections
@@ -68,22 +71,23 @@ UAB Sepsis Possible Mechanics
 		B. Restroom Usage
 			i.   Player never needs to concern themselves with patient bathroom usage
 			ii.  Player must assist some patients to use the bathroom
-			iii. Patients who don't receive restroom assistance may have "accidents", requiring some action
-			iv.  Patients who don't recieve restroom assistance may hold their bladder until they cause an infection
+				a. Patients who don't receive restroom assistance may have "accidents", requiring some action
+				b. Patients who don't recieve restroom assistance may hold their bladder until it causes an infection
 			
 	Sepsis Power Plan
-		A. In order to be effective, this must be followed to the letter...
+		A. In order to be effective, the Sepsis Power Plan must be followed
 			i.   over the course of many in-game hours
-			ii.  but can be performed all at once, without requiring the player to time anything out
+			ii.  or can be performed all at once, without requiring the player to time procedures
 		B. Protocol and qSepsis scoring
 			i.   Provided for the player
-			ii.  Guidelines can be referenced, but aren't filled in automatically
+			ii.  Guidelines can be referenced, but qSepsis score must be charted by the player
 			iii. Are not available in any way
 			
 	Charts
 		A. Fill in automatically
-		B. Require the player to "chart", but this just passes time and fills in automatically
-		C. Require the player to actually chart at some point in the simulation
+		B. Require the player to "chart" some things, but this just passes time and fills in automatically
+			Example: Player uses in-game time to "chart", but this is a single button that fills in the chart at the cost of time
+		C. Require the player to actually chart some things at some point in the simulation
 		
 	Infection Risks
 		A. Don't appear in the simulation
@@ -101,6 +105,11 @@ UAB Sepsis Possible Mechanics
 		A. The player can give any medication or comfort item at any time, without limit
 		B. The player has an limited inventory they can fill with items from around the hospital
 		C. The player must handle each object individually and place them on their cart to move them from room to room
+
+	Journal
+		A. Non-existent
+		B. Information revealed from dialogue, nurse brief, charts enter automatically into a reference journal
+			Example: "1400 - I spoke to the patient about a past injury, it's not healing very well"
 		
 	Chaos
 		A. Peripheral chaos, but not actually a hindrance
@@ -109,3 +118,4 @@ UAB Sepsis Possible Mechanics
 		D. Garbage and infection risks may appear around the hospital, with player action to remove them giving points
 		E. Nurses and other staff may be moving around the main floor
 		F. Nurses and other staff may need the player to perform immediate tasks, throwing off their rounds
+		G. Prescriptions change occasionally, must be checked in chart before given
