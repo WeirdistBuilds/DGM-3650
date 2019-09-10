@@ -1,0 +1,192 @@
+2018.3.6
+https://trello.com/b/zAk3YY1B/uab-sepsim
+
+Nurse Controls / VR (9/10/2019)
+	Movement
+		Teleporting
+		Physical Movement
+	Interaction
+		Activation
+		Optional - Grabbing/Dropping
+
+Hospital Object (9/17/2019)
+	Time
+		Passes
+		Can skip ahead
+		Optional - Working Clocks
+
+Patient Object (9/17/2019)
+	Vitals
+	Infection
+		Source
+		Rate
+	Gone times (like the endoscopy)
+	Allergies
+	Optional - Medication needs
+	Optional - Comfort level (food, water, pillows/blankets, bad smells?)
+	Optional - Bed angle
+
+Playthrough Documentation (9/24/2019)
+	Numbers
+	Optional - Graphs
+	Optional - Observer Mode Notes
+	Optional - Achievement Unlock Anims, etc
+
+Charts (10/1/2019)
+	Vitals
+	Misc notes (from doctors, lab techs, etc.)
+	Optional - Current Time
+	Optional - Interactive enum boxes
+	Optional - Typing
+	Optional - qSepsis scoring
+			Automatic or manual
+
+Getting Items (10/8/2019)
+		Picking up items from supply, placing on cart
+		Inventory system from supply, like Minecraft
+		Inventory system at all times, like Minecraft
+
+Using Items (10/8/2019)
+		Dropping objects in place (trigger animations)
+		Inventory system (like Minecraft)
+
+Reference Material (10/15/2019)
+	Code Sepsis
+	Code MET
+	Other Codes
+	Controls
+
+Optional - Journal (10/15/2019)
+	Auto-Notes (from dialogue, etc)
+	Optional - Unlockable glove/mask color
+
+Calling Codes (10/22/2019)
+	Code Sepsis
+	Code MET
+	Optional - Blue, Others
+
+Dialogue System (10/29/2019)
+	Display text
+	Flags
+	Unlockable Dialogues
+	Optional - Voice
+	Optional - Adding Points
+
+Sepsis Power Plan (11/5/2019)
+	Choose One:
+		Performed over the course of many in-game hours
+		Performed all at once
+
+Login (11/12/2019)
+	Name or ID
+	Times Played (saved by date)
+	Documentation for each playthrough
+	Optional - Gloves, Mask, and Apron Color
+	Optional - Observer's notes
+	Optional - Achievements/unlockables
+
+Room Assets (done by end of semester)
+	Bed
+		Model
+		Textures
+		Anims
+		SFX (motor)
+	Chairs
+		Model
+		Textures
+		Optional - SFX (squeeking)
+	Screen
+		Model
+		Textures
+		Optional - Fabric Physics
+	Whiteboard
+		Model
+		Textures
+	Sink
+		Model
+		Textures
+		Optional - Anims
+		Optional - SFX (running water)
+	Clock
+		Model
+		Textures
+		Optional - Moving hands based on in-game time
+	Workshop on Wheels
+		Model
+		Textures
+		Screen Simulation (Chart stuff)
+	Tables
+		Model
+		Textures
+	Computers
+		Model
+		Textures
+	Large Whiteboard
+		Model
+		Textures
+		Optional - De-brief appears on board
+	Signs
+		Models
+		Textures
+	Other Assets
+
+Med/Object Assets
+	Meds, Objects, IV Needles, Need More Info
+
+Hospital Assets (done by end of semester)
+	Nurses' Station
+	Patient Rooms
+	Nurses' Lounge
+	Optional - Supply Room/Med Room
+
+
+Optional - Infection Risks
+	Optional - Randomly appear
+	Optional - Appear as result of player's inaction
+
+Optional - Chaos
+	Peripheral chaos, but not actually a hindrance
+	Equipment, such as the medication locker, may fail occasionally
+	Patients may wander off
+	Garbage and infection risks may appear around the hospital, with player action to remove them giving points
+	Nurses and other staff may be moving around the main floor
+	Nurses and other staff may need the player to perform immediate tasks, throwing off their rounds
+	Prescriptions change occasionally, must be checked in chart before given
+
+Optional - Observation Mode
+	Sim team member has ability to watch
+	Sim team member has ability to type to player
+	Sim team member has ability to talk to player
+
+Optional - Food/Water/Pillows/Blankets
+Optional - Restroom Assistance
+
+
+Character Assets
+	Patients
+		Model
+		Textures
+		Anims
+		Optional - VA
+	Doctor
+		Model
+		Textures
+		Anims
+		Optional - VA
+	Nurse(s)
+		Model
+		Textures
+		Anims
+		Optional - VA
+	Lab Tech
+		Model
+		Textures
+		Anims
+		Optional - VA
+	Optional - Family Member(s)
+		Model
+		Textures
+		Anims
+		Optional - VA
+	SFX Footsteps
+
