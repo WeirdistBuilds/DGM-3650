@@ -1,0 +1,54 @@
+Nurse
+	Name and/or ID
+	optional - Slot for RealTime
+	optional - GloveColor
+	optional - WatchColor
+	Slot for InGame Time
+
+Patient
+	Vitals
+		Temperature
+		Heart Rate
+		Respiration Rate
+		BP ?
+		RA
+		EWS (is this from the tech vitals?)
+		hidden - qSepsis Score
+	Allergies
+	Comfort
+	Thirst
+	Hunger
+	
+	
+	bool InfectionActive
+	InfectionRate
+	
+	Functions on Update
+		InfectChange (changes vitals)
+		HungerChange
+		ThirstChange
+		ComfortChange
+		DialogueChange (at certain vitals)
+		
+	Functions on Start
+		SetInfection
+		RandomizeStats
+	
+	Other Functions
+		GiveMedication
+		GiveWater
+		GiveFood
+		GiveComfort
+		OpenDialog
+		DoSepsisPowerPlan
+		
+Room
+	Bed Angle
+	UI for whiteboard?
+	On Oxygen?
+
+Monitor
+	Slot for Patient Object
+	UI for Screen
+	
+WorkshopOnWheels
