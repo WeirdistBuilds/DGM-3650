@@ -1,0 +1,43 @@
+Rob Thomas
+
+Start +-(1/100th of the difference * infection level)
+
+
+TempStart				TempEnd					Differences				Diff Percent of Start
+98.2					103.5					+5.3%					+5.3%
+
+HRStart					HREnd
+90bpm					165bpm					+75						+83.3%
+
+RRStart					RREnd
+12rpm					32rpm					+20						+166.6%
+
+BPSStart				BPSEnd
+180						80						-100					-55.5%
+
+BPDStart				BPDEnd
+90						40						-50						-55.5%
+
+O2SatStart				O2SatEnd
+95%						93%						-2%						-2.1%
+
+
+
+Rachel Wix
+TempStart				TempEnd
+98.9					95.4					-3.5					-3.5%
+
+HRStart					HREnd
+82bpm					103bpm					+21						+25.6%
+
+RRStart					RREnd
+14rpm					27rpm					+13						+92.8%
+
+BPSStart				BPSEnd
+125						99						-26						-20.8%
+
+BPDStart				BPDEnd
+80						50						-30						-37.5%
+
+O2SatStart				O2SatEnd
+95%						93%						-2%						-2.1%
