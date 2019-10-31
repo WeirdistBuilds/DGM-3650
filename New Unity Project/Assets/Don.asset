@@ -1,0 +1,38 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eec4d861dad94964d94999c7c6b3a7de, type: 3}
+  m_Name: Don
+  m_EditorClassIdentifier: 
+  Name: Don
+  Age: 59
+  WeightInKG: 52
+  Allergies: Allergies
+  History: History
+  HomeMeds: Home Meds
+  Temperature: 96.671814
+  HR: 81.57886
+  RR: 10.712933
+  BPS: 194.29163
+  BPD: 88.79548
+  O2Sat: 94.99415
+  EWS: 0
+  qSepsisScore: 0
+  DiscomfortLevel: 86.079315
+  ThirstLevel: 276.33496
+  HungerLevel: 45.403004
+  TimeLastFood: 0
+  TimeLastWater: 0
+  TimeLastComfort: 0
+  InfectionActive: 0
+  InfectionRate: 1
+  InfectionStart: 0
+  InfectionCurrent: 0.29315153
