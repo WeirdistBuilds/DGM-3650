@@ -3,16 +3,17 @@
 public class Infector : MonoBehaviour
 {
     public PatientObject MyPatient;
+    public InfectionObject MyInfection;
     public TimeObject InGameTime;
-    public float TimeToICU = 28800;
     public float SecondsAtCure;
     public float HealSubtract;
     public float ModifiedCureSecond;
-    public bool beenHealed;
+    public bool BeenCured;
 
     void Start()
     {
         MyPatient.InfectionCurrent = 0;
+        BeenCured = false;
     }
     
     void Update()
@@ -20,27 +21,42 @@ public class Infector : MonoBehaviour
         InfectionGrowth();
     }
 
-    public void InfectionGrowth()
+    private void InfectionGrowth()
     {
         if (MyPatient.InfectionCurrent >= 0)
         {
-            if (MyPatient.InfectionActive)
+            if (MyPatient.InfectionActive) // if the patient is still infected
             {
-                MyPatient.InfectionCurrent = ((100 * MyPatient.InfectionRate * Mathf.Pow(10, InGameTime.SecondsPassed / TimeToICU) - 100) / 9);
+                if (MyPatient.InfectionCurrent < 100)
+                {
+                   // MyPatient.InfectionCurrent = ((100 * MyPatient.InfectionRate * Mathf.Pow(10, InGameTime.SecondsPassed / MyInfection.TimeToICU) - 100) / 9);  //exponential infection formula  
+                   MyPatient.InfectionCurrent = (MyPatient.InfectionRate * (InGameTime.SecondsPassed / MyInfection.TimeToICU)) * 100; //linear infection formula
+                }
+                else
+                {
+                    MyPatient.InfectionCurrent = 100;
+                }
             }
-            else
+            else // if the patient has been cured
             {
-                if(!beenHealed)
+                if(!BeenCured)
                 {
                     SecondsAtCure = InGameTime.SecondsPassed;
-                    beenHealed = true;
+                    BeenCured = true;
                 }
 
                 HealSubtract = (InGameTime.SecondsPassed - SecondsAtCure) * 2;
                 ModifiedCureSecond = InGameTime.SecondsPassed - HealSubtract;
-
-
-                MyPatient.InfectionCurrent = (100 * Mathf.Pow(10, ModifiedCureSecond / TimeToICU) - 100) / 9;
+                
+                if (MyPatient.InfectionCurrent > 0)
+                {
+                    // MyPatient.InfectionCurrent = (100 * Mathf.Pow(10, ModifiedCureSecond / MyInfection.TimeToICU) - 100) / 9; //reverse exponential infection formula
+                    MyPatient.InfectionCurrent = (MyPatient.InfectionRate * (ModifiedCureSecond / MyInfection.TimeToICU)) * 100; //reverse linear infection formula
+                }
+                else
+                {
+                    MyPatient.InfectionCurrent = 0;
+                }
             }
         }
     }

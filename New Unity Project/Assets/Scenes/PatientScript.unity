@@ -864,13 +864,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 374988088}
-  m_LocalRotation: {x: 0.40821788, y: -0.23456968, z: 0.10938163, w: 0.8754261}
+  m_LocalRotation: {x: -0.05579367, y: 0.044372454, z: -0.9974511, w: 0.0030815583}
   m_LocalPosition: {x: 0, y: 3, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 1
-  m_LocalEulerAnglesHint: {x: 50, y: -30, z: 0}
+  m_LocalEulerAnglesHint: {x: 5.059, y: 6.431, z: -179.36201}
 --- !u!114 &498666537 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 2612712197289326433, guid: d2f934a3f70c7dc47b641e1e632c5845,
@@ -1477,6 +1477,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   MyPatient: {fileID: 11400000, guid: 42f7b7a7fe75916448a30464a592f5b7, type: 2}
+  MyInfection: {fileID: 11400000, guid: 542a8019c68108a4f90968db3bf486e1, type: 2}
 --- !u!114 &927838428
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2101,7 +2102,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   InGameTime: {fileID: 11400000, guid: 51333c6d523c3ee488fa36bfb81dacce, type: 2}
-  StartHour: 8
+  StartHour: 7
   SecondsPerSecond: 20
 --- !u!4 &1296739203
 Transform:
@@ -2263,6 +2264,36 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4398816857080793831, guid: abe6ea1ba9f39d74b95fc8940891034a,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4398816858346444895, guid: abe6ea1ba9f39d74b95fc8940891034a,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4398816858163057218, guid: abe6ea1ba9f39d74b95fc8940891034a,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4398816856494734713, guid: abe6ea1ba9f39d74b95fc8940891034a,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: aa51950eae09f8945bad2a6f7fac6131, type: 2}
+    - target: {fileID: 4398816858163057221, guid: abe6ea1ba9f39d74b95fc8940891034a,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: aa51950eae09f8945bad2a6f7fac6131, type: 2}
+    - target: {fileID: 4398816858292020378, guid: abe6ea1ba9f39d74b95fc8940891034a,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: aa51950eae09f8945bad2a6f7fac6131, type: 2}
     m_RemovedComponents:
     - {fileID: 4398816857148196028, guid: abe6ea1ba9f39d74b95fc8940891034a, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: abe6ea1ba9f39d74b95fc8940891034a, type: 3}
@@ -3278,12 +3309,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   MyPatient: {fileID: 11400000, guid: 42f7b7a7fe75916448a30464a592f5b7, type: 2}
+  MyInfection: {fileID: 11400000, guid: 542a8019c68108a4f90968db3bf486e1, type: 2}
   InGameTime: {fileID: 11400000, guid: 51333c6d523c3ee488fa36bfb81dacce, type: 2}
-  TimeToICU: 28800
   SecondsAtCure: 0
   HealSubtract: 0
   ModifiedCureSecond: 0
-  beenHealed: 0
+  BeenCured: 0
 --- !u!4 &1825087082
 Transform:
   m_ObjectHideFlags: 0
@@ -3321,8 +3352,8 @@ MonoBehaviour:
   MyPatient: {fileID: 11400000, guid: 42f7b7a7fe75916448a30464a592f5b7, type: 2}
   InGameTime: {fileID: 11400000, guid: 51333c6d523c3ee488fa36bfb81dacce, type: 2}
   TimeToStarving: 21600
-  TimeToDehydrated: 10800
-  TimeToDiscomfort: 16200
+  TimeToDehydrated: 14400
+  TimeToDiscomfort: 28800
 --- !u!114 &1825087084
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3337,18 +3368,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   MyPatient: {fileID: 11400000, guid: 42f7b7a7fe75916448a30464a592f5b7, type: 2}
   MyInfection: {fileID: 11400000, guid: 542a8019c68108a4f90968db3bf486e1, type: 2}
-  TempStart: 0
-  HRStart: 0
-  RRStart: 0
-  BPSStart: 0
-  BPDStart: 0
-  O2SatStart: 0
   TempDiff: 0
   HRDiff: 0
   RRDiff: 0
   BPSDiff: 0
   BPDDiff: 0
   O2SatDiff: 0
+  WBCDiff: 0
+  LacticDiff: 0
 --- !u!114 &1918866137 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 2612712199040543121, guid: d2f934a3f70c7dc47b641e1e632c5845,

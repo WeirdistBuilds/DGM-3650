@@ -5,7 +5,7 @@ public class PatientObject : ScriptableObject
 {
     public string Name = "John Doe";
     public int Age = 21;
-    public int WeightInKG = 180;
+    public int Weight = 180;
     public string Allergies = "None";
     public string History = "None";
     public string HomeMeds = "None";
@@ -16,6 +16,8 @@ public class PatientObject : ScriptableObject
     public float BPS = 120; // First number of Blood Pressure (Systolic)
     public float BPD = 80; // Second number of Blood Pressure (Diastolic)
     public float O2Sat = 95; // O2 Saturation, on Room Air
+    public float WBC = 11000; // White Blood Cell Count
+    public float Lactic = 1; // White Blood Cell Count
     public int EWS; // Early Warning Score
     public int qSepsisScore; // qSepsis Score
 

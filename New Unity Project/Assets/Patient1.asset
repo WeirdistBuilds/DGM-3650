@@ -10,29 +10,31 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: eec4d861dad94964d94999c7c6b3a7de, type: 3}
-  m_Name: Don
+  m_Name: Patient1
   m_EditorClassIdentifier: 
   Name: Don
-  Age: 59
-  WeightInKG: 52
+  Age: 50
+  Weight: 50
   Allergies: Allergies
   History: History
   HomeMeds: Home Meds
-  Temperature: 96.671814
-  HR: 81.57886
-  RR: 10.712933
-  BPS: 194.29163
-  BPD: 88.79548
-  O2Sat: 94.99415
+  Temperature: 103.5
+  HR: 165
+  RR: 32
+  BPS: 166
+  BPD: 40
+  O2Sat: 95
+  WBC: 14000
+  Lactic: 3
   EWS: 0
   qSepsisScore: 0
-  DiscomfortLevel: 86.079315
-  ThirstLevel: 276.33496
-  HungerLevel: 45.403004
+  DiscomfortLevel: 708.90283
+  ThirstLevel: 5784.945
+  HungerLevel: 242.66165
   TimeLastFood: 0
   TimeLastWater: 0
   TimeLastComfort: 0
-  InfectionActive: 0
+  InfectionActive: 1
   InfectionRate: 1
   InfectionStart: 0
-  InfectionCurrent: 0.29315153
+  InfectionCurrent: 100

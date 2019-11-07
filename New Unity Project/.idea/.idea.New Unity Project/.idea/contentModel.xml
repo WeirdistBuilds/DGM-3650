@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ContentModelStore">
+    <e p="C:\Users\kyleh\.Rider2019.2\system\extResources" t="IncludeRecursive" />
+    <e p="C:\Users\kyleh\.Rider2019.2\system\resharper-host\local\Transient\ReSharperHost\v192\SolutionCaches\_New Unity Project.-1893734648.00" t="ExcludeRecursive" />
+    <e p="F:\Work\School Work\2019 Fall\DGM-3650\New Unity Project" t="IncludeRecursive">
+      <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
+      <e p="Assets" t="Include">
+        <e p="Scripts" t="Include">
+          <e p="CureSepsis.cs" t="Include" />
+          <e p="DisplayScripts" t="Include">
+            <e p="HTCSetter.cs" t="Include" />
+            <e p="InfectionSetter.cs" t="Include" />
+            <e p="VitalsSetter.cs" t="Include" />
+          </e>
+          <e p="HourSkip.cs" t="Include" />
+          <e p="HTCChanger.cs" t="Include" />
+          <e p="HTCReducer.cs" t="Include" />
+          <e p="InfectionObject.cs" t="Include" />
+          <e p="Infector.cs" t="Include" />
+          <e p="InGameTimeClockSetter.cs" t="Include" />
+          <e p="InGameTimePasser.cs" t="Include" />
+          <e p="PatientObject.cs" t="Include" />
+          <e p="RealTimePasser.cs" t="Include" />
+          <e p="TimeObject.cs" t="Include" />
+          <e p="TimeResetter.cs" t="Include" />
+          <e p="VitalsChanger.cs" t="Include" />
+          <e p="VitalsResetter.cs" t="Include" />
+        </e>
+      </e>
+      <e p="New Unity Project.sln" t="IncludeFlat" />
+      <e p="obj" t="ExcludeRecursive" />
+      <e p="Packages" t="ExcludeRecursive" />
+      <e p="Temp\bin" t="ExcludeRecursive" />
+    </e>
+  </component>
+</project>

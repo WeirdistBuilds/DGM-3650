@@ -1,0 +1,38 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fc5f7eaa07af71c4d8671383889128b6, type: 3}
+  m_Name: ScenarioThomas
+  m_EditorClassIdentifier: 
+  TempStart: 98.2
+  TempEnd: 103.5
+  HRStart: 128
+  HREnd: 165
+  RRStart: 17
+  RREnd: 32
+  BPSStart: 168
+  BPSEnd: 80
+  BPDStart: 75
+  BPDEnd: 40
+  O2SatStart: 95
+  O2SatEnd: 93
+  WBCStart: 12500
+  WBCEnd: 14000
+  LacticStart: 1.5
+  LacticEnd: 3
+  WeightMin: 61
+  WeightMax: 89
+  AgeMin: 25
+  AgeMax: 35
+  TimeToICU: 43200
+  Medication: Norvasc (Amlodipine)
+  Allergies: No allergies
+  History: Hypertension
