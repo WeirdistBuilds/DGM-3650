@@ -8,12 +8,14 @@ public class Infector : MonoBehaviour
     public float SecondsAtCure;
     public float HealSubtract;
     public float ModifiedCureSecond;
+    private float e, exponent;
     public bool BeenCured;
 
     void Start()
     {
         MyPatient.InfectionCurrent = 0;
         BeenCured = false;
+        e = Mathf.Exp(1);
     }
     
     void Update()
@@ -29,9 +31,13 @@ public class Infector : MonoBehaviour
             {
                 if (MyPatient.InfectionCurrent < 100)
                 {
-                    // MyPatient.InfectionCurrent = ((100 * MyPatient.InfectionRate * Mathf.Pow(10, InGameTime.SecondsPassed / MyInfection.TimeToICU) - 100) / 9);  //exponential infection formula  
+                    exponent = InGameTime.SecondsPassed - (MyInfection.TimeToICU / 2); // logarithmic infection formula
+                    MyPatient.InfectionCurrent = 100 / (1 + Mathf.Pow(e, exponent * -0.00025f)); //logarithmic infection formula
+                    // MyPatient.InfectionCurrent = ((100 * MyPatient.InfectionRate * Mathf.Pow(10, InGameTime.SecondsPassed / MyInfection.TimeToICU)) - 100) / 9;  //exponential infection formula  
                     // MyPatient.InfectionCurrent = (MyPatient.InfectionRate * (InGameTime.SecondsPassed / MyInfection.TimeToICU)) * 100; //linear infection formula
-                    MyPatient.InfectionCurrent = Mathf.Log10((MyInfection.TimeToICU * (9 * InGameTime.SecondsPassed + 100)) / (100 * MyPatient.InfectionRate)); //logarithmic infection formula
+
+
+                    
                 }
                 else
                 {
@@ -52,7 +58,9 @@ public class Infector : MonoBehaviour
                 if (MyPatient.InfectionCurrent > 0)
                 {
                     // MyPatient.InfectionCurrent = (100 * Mathf.Pow(10, ModifiedCureSecond / MyInfection.TimeToICU) - 100) / 9; //reverse exponential infection formula
-                    MyPatient.InfectionCurrent = (MyPatient.InfectionRate * (ModifiedCureSecond / MyInfection.TimeToICU)) * 100; //reverse linear infection formula
+                    // MyPatient.InfectionCurrent = (ModifiedCureSecond / MyInfection.TimeToICU) * 100; //reverse linear infection formula
+                    exponent = ModifiedCureSecond - (MyInfection.TimeToICU / 2); // reverse logarithmic infection formula
+                    MyPatient.InfectionCurrent = 100 / (1 + Mathf.Pow(e, exponent * -0.00025f)); // reverse logarithmic infection formula
                 }
                 else
                 {
