@@ -31,13 +31,16 @@ public class Infector : MonoBehaviour
             {
                 if (MyPatient.InfectionCurrent < 100)
                 {
-                    exponent = InGameTime.SecondsPassed - (MyInfection.TimeToICU / 2); // logarithmic infection formula
-                    MyPatient.InfectionCurrent = 100 / (1 + Mathf.Pow(e, exponent * -0.00025f)); //logarithmic infection formula
-                    // MyPatient.InfectionCurrent = ((100 * MyPatient.InfectionRate * Mathf.Pow(10, InGameTime.SecondsPassed / MyInfection.TimeToICU)) - 100) / 9;  //exponential infection formula  
+
+                    exponent = 2 * (InGameTime.SecondsPassed - MyInfection.TimeToICU / 2) / MyInfection.TimeToICU; // ginger's infection formula
+                    MyPatient.InfectionCurrent = 100 / (Mathf.Pow(100, -exponent) + 1) + 0.99f; // ginger's infection formula
+                    // exponent = InGameTime.SecondsPassed - (MyInfection.TimeToICU / 2); // logarithmic infection formula
+                    // MyPatient.InfectionCurrent = 100 / (1 + Mathf.Pow(e, exponent * -0.00025f)); //logarithmic infection formula
+                    // MyPatient.InfectionCurrent = ((100 * MyPatient.InfectionRate * Mathf.Pow(10, InGameTime.SecondsPassed / MyInfection.TimeToICU)) - 100) / 9;  //exponential infection formula
                     // MyPatient.InfectionCurrent = (MyPatient.InfectionRate * (InGameTime.SecondsPassed / MyInfection.TimeToICU)) * 100; //linear infection formula
 
 
-                    
+
                 }
                 else
                 {

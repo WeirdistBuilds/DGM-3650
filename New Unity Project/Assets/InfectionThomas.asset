@@ -10,7 +10,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: fc5f7eaa07af71c4d8671383889128b6, type: 3}
-  m_Name: ScenarioThomas
+  m_Name: InfectionThomas
   m_EditorClassIdentifier: 
   TempStart: 98.2
   TempEnd: 103.5
@@ -33,6 +33,6 @@ MonoBehaviour:
   AgeMin: 25
   AgeMax: 35
   TimeToICU: 43200
-  Medication: Norvasc (Amlodipine)
-  Allergies: No allergies
+  Medication: Norvasc (Amlodipine) 5mg orally each day
+  Allergies: NKDA
   History: Hypertension

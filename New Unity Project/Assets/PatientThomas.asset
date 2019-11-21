@@ -10,31 +10,31 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: eec4d861dad94964d94999c7c6b3a7de, type: 3}
-  m_Name: Patient1
+  m_Name: PatientThomas
   m_EditorClassIdentifier: 
-  Name: Don
-  Age: 50
-  Weight: 50
-  Allergies: Allergies
-  History: History
-  HomeMeds: Home Meds
-  Temperature: 103.5
-  HR: 165
-  RR: 32
-  BPS: 166
-  BPD: 40
-  O2Sat: 95
-  WBC: 14000
-  Lactic: 3
+  Name: Rob Thomas
+  Age: 30
+  Weight: 70
+  Allergies: NKDA
+  History: Hypertension
+  HomeMeds: Norvasc (Amlodipine) 5mg orally each day
+  Temperature: 103.31885
+  HR: 163.73537
+  RR: 31.487309
+  BPS: 83.00778
+  BPD: 41.196278
+  O2Sat: 93.06836
+  WBC: 13948.73
+  Lactic: 2.948731
   EWS: 0
   qSepsisScore: 0
-  DiscomfortLevel: 708.90283
-  ThirstLevel: 5784.945
-  HungerLevel: 242.66165
+  DiscomfortLevel: 100.107
+  ThirstLevel: 200.214
+  HungerLevel: 133.476
   TimeLastFood: 0
   TimeLastWater: 0
   TimeLastComfort: 0
   InfectionActive: 1
   InfectionRate: 1
   InfectionStart: 0
-  InfectionCurrent: 100
+  InfectionCurrent: 96.58206
