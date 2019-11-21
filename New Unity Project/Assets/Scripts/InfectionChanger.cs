@@ -1,6 +1,6 @@
 ﻿using UnityEngine;
 
-public class Infector : MonoBehaviour
+public class InfectionChanger : MonoBehaviour
 {
     public PatientObject MyPatient;
     public InfectionObject MyInfection;

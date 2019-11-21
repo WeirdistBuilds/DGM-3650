@@ -58,7 +58,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: b8ecfc4cc9ea2204eb7a46f6065a7f10, type: 2}
+  - {fileID: 0}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -289,17 +289,17 @@ MonoBehaviour:
   m_GameObject: {fileID: 4398816857148196027}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1c2175a8cf6e8954bb9b3b671bb43379, type: 3}
+  m_Script: {fileID: 11500000, guid: c235b1066f4b35744876eadcb9b0746f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  MyTimeObject: {fileID: 11400000, guid: 2b6f9ec3a40d47a49ac861e9b69871f5, type: 2}
+  MyTimeObject: {fileID: 0}
   SecondHand: {fileID: 0}
   MinuteHand: {fileID: 0}
   HourHand: {fileID: 0}
   SecondText: {fileID: 0}
   MinuteText: {fileID: 0}
   HourText: {fileID: 0}
-  IsAnalog: 1
+  IsAnalog: 0
 --- !u!1 &4398816858163057218
 GameObject:
   m_ObjectHideFlags: 0
@@ -358,7 +358,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: b8ecfc4cc9ea2204eb7a46f6065a7f10, type: 2}
+  - {fileID: 0}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -449,7 +449,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 5c581833f4a6a7044a0bb62bf35f4c02, type: 2}
+  - {fileID: 0}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0

@@ -3,12 +3,13 @@
 [CreateAssetMenu(fileName = "NewPatient", menuName = "PatientObject")]
 public class PatientObject : ScriptableObject
 {
-    public string Name = "John Doe";
+    public string Name = "New Patient";
     public int Age = 21;
-    public int Weight = 180;
-    public string Allergies = "None";
-    public string History = "None";
-    public string HomeMeds = "None";
+    public int Weight = 70;
+    public string Allergies = "NKDFA";
+    public string History = "No History";
+    public string HomeMeds = "No Meds";
+    public string Notes = "No Notes";
 
     public float Temperature = 98.6f; //Temperature
     public float HR = 80; // Heart Rate
