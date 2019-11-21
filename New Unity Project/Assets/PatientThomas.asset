@@ -18,23 +18,24 @@ MonoBehaviour:
   Allergies: NKDA
   History: Hypertension
   HomeMeds: Norvasc (Amlodipine) 5mg orally each day
-  Temperature: 103.31885
-  HR: 163.73537
-  RR: 31.487309
-  BPS: 83.00778
-  BPD: 41.196278
-  O2Sat: 93.06836
-  WBC: 13948.73
-  Lactic: 2.948731
+  Notes: No Notes
+  Temperature: 98.78114
+  HR: 132.05704
+  RR: 18.644747
+  BPS: 158.35081
+  BPD: 71.162254
+  O2Sat: 94.7807
+  WBC: 12664.475
+  Lactic: 1.6644747
   EWS: 0
   qSepsisScore: 0
-  DiscomfortLevel: 100.107
-  ThirstLevel: 200.214
-  HungerLevel: 133.476
+  DiscomfortLevel: 154.6591
+  ThirstLevel: 309.3182
+  HungerLevel: 206.21213
   TimeLastFood: 0
   TimeLastWater: 0
   TimeLastComfort: 0
-  InfectionActive: 1
+  InfectionActive: 0
   InfectionRate: 1
   InfectionStart: 0
-  InfectionCurrent: 96.58206
+  InfectionCurrent: 10.964979

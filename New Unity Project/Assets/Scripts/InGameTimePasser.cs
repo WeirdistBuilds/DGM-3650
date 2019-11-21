@@ -6,7 +6,7 @@ public class InGameTimePasser : MonoBehaviour
     public int StartHour;
     public float SecondsPerSecond = 20;
     
-    void Start()
+    void Awake()
     {
         float StartMinute = StartHour * 60;
         InGameTime.TotalGameSeconds = StartMinute * 60;
