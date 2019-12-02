@@ -10,24 +10,27 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/InfectionObject.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/ChartChanger.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/PatientObject.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/CureSepsis.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/ChartTimeObject.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/VitalsChanger.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/HourSkip.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/VitalsResetter.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/ChartObject.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Infector.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Assets/Scripts/PatientObject.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/HourSkip.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/InfectionObject.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/VitalsResetter.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/VitalsChanger.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/ChartObject.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Infector.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/ChartObject.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/HourSkip.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/PatientObject.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/ChartTimeObject.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/ChartChanger.cs" />
       </list>
     </option>
   </component>

@@ -4,8 +4,6 @@
 public class PatientObject : ScriptableObject
 {
     public string Name = "New Patient";
-    public int Age = 21;
-    public int Weight = 70;
     public string Allergies = "NKDFA";
     public string History = "No History";
     public string HomeMeds = "No Meds";

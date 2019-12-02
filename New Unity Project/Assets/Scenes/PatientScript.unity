@@ -462,8 +462,6 @@ MonoBehaviour:
   ChartInterval: 14400
   NextChartTime: 0
   ChartNumber: 0
-  PlayerCanChart: 0
-  CanAutoChart: 0
 --- !u!4 &180761095
 Transform:
   m_ObjectHideFlags: 0
@@ -1481,7 +1479,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   InGameTime: {fileID: 11400000, guid: 51333c6d523c3ee488fa36bfb81dacce, type: 2}
-  yourButton: {fileID: 1100884073}
 --- !u!114 &1100884073
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1524,7 +1521,18 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1100884074}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1100884072}
+        m_MethodName: DoHourSkip
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
 --- !u!114 &1100884074
@@ -1792,7 +1800,6 @@ GameObject:
   - component: {fileID: 1377565219}
   - component: {fileID: 1377565218}
   - component: {fileID: 1377565217}
-  - component: {fileID: 1377565216}
   m_Layer: 5
   m_Name: Chart
   m_TagString: Untagged
@@ -1820,27 +1827,6 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: -120}
   m_SizeDelta: {x: 160, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &1377565216
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1377565214}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 893fc875bce5d694d886a3b8a4652386, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  MyChart: {fileID: 11400000, guid: 3a72caf173b344c44adc47eee0e6d0d7, type: 2}
-  MyPatient: {fileID: 11400000, guid: 42f7b7a7fe75916448a30464a592f5b7, type: 2}
-  MyInfection: {fileID: 11400000, guid: 542a8019c68108a4f90968db3bf486e1, type: 2}
-  InGameTime: {fileID: 11400000, guid: 51333c6d523c3ee488fa36bfb81dacce, type: 2}
-  ChartInterval: 14400
-  NextChartTime: 0
-  ChartNumber: 0
-  PlayerCanChart: 0
-  CanAutoChart: 0
 --- !u!114 &1377565217
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1884,7 +1870,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1377565216}
+      - m_Target: {fileID: 180761094}
         m_MethodName: PlayerCharter
         m_Mode: 1
         m_Arguments:

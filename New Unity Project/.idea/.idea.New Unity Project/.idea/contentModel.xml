@@ -7,7 +7,9 @@
       <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
       <e p="Assets" t="Include">
         <e p="Scripts" t="Include">
+          <e p="ChartChanger.cs" t="Include" />
           <e p="ChartObject.cs" t="Include" />
+          <e p="ChartTimeObject.cs" t="Include" />
           <e p="CureSepsis.cs" t="Include" />
           <e p="DisplayScripts" t="Include">
             <e p="HTCSetter.cs" t="Include" />
@@ -17,8 +19,8 @@
           <e p="HourSkip.cs" t="Include" />
           <e p="HTCChanger.cs" t="Include" />
           <e p="HTCReducer.cs" t="Include" />
+          <e p="InfectionChanger.cs" t="Include" />
           <e p="InfectionObject.cs" t="Include" />
-          <e p="Infector.cs" t="Include" />
           <e p="InGameTimeClockSetter.cs" t="Include" />
           <e p="InGameTimePasser.cs" t="Include" />
           <e p="PatientObject.cs" t="Include" />
